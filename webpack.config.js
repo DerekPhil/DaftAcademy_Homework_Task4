@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const regeneratorRuntime = require("regenerator-runtime");
 
 module.exports = {
     mode: 'production',
